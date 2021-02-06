@@ -53,7 +53,7 @@ function Menu() {
 
 const showMenu = (menus) => {
   var result = null;
-  if(menus.length > 0){
+  if (menus.length > 0) {
     result = menus.map((menu, index) => {
       return (
         <MenuLink 
@@ -65,6 +65,7 @@ const showMenu = (menus) => {
       );
     })
   }
+  return result;
 }
 
 export default Menu;
